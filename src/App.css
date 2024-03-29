@@ -1,0 +1,65 @@
+body {
+  margin: 10;
+  padding: 10;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4 {
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  color: #fff;
+  border: 1px solid #262625;
+}
+
+div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 80%;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.bg-dark {
+  background-color: #000 !important; 
+}
+
+.todo-item {
+  margin: .5rem; 
+  padding: .5rem; 
+  border-radius: .25rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3em;
+}
+
+.todo-item.completed {
+  color: #6c757d; 
+  text-decoration: line-through; 
+}
+
+.todo-text {
+  flex-grow: 1;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 10px;
+}
